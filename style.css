@@ -1,0 +1,143 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+header{
+    width: 100vw;
+    position: fixed;
+    top: 0;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(236, 215, 215);
+}
+
+li{
+    list-style-type: none ;
+    font-family: 'Epilogue', sans-serif;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Hubballi', cursive;
+    font-family: 'Inter', sans-serif;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+#DOM-title{
+    cursor: context-menu;
+    margin:20px 0px 20px 5px;
+    background-color: white;
+    height: 5vh;
+    width: 35vw;
+    border-radius: 10px;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+#nav-container{
+    margin: 20px 0px 20px 0px;
+}
+
+#scroll-container > li {
+    cursor: pointer;
+    margin-left: 15px;
+    height: 5vh;
+    width: 15vw;
+    font-size: .6rem;
+    font-weight: bold;
+    border-radius: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+#s-t-1{
+    background-color: rgb(219, 236, 230);  
+}
+
+#s-t-2{
+    background-color: rgb(226, 218, 207);  
+}
+
+#s-t-3{
+    background-color: rgb(205, 219, 235);
+}
+
+section > article{
+    cursor: context-menu;
+    padding: 15px;
+    font-family: 'Epilogue', sans-serif;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Hubballi', cursive;
+    font-family: 'Inter', sans-serif;
+    margin: auto;
+    border-radius: 10px;
+    height: 170vh;
+    width: 50vw;
+}
+
+#article-1{
+    margin-top: 110px;
+    background-color: rgb(219, 236, 230);
+}
+#article-2{
+    margin-top: 40px;
+    background-color: rgb(226, 218, 207);
+}
+#article-3{
+    margin-top: 40px;
+    background-color: rgb(205, 219, 235);
+}
+
+@media only screen and (min-width: 600px){
+    section > article {
+        height: 100vh;
+    }
+    #scroll-container > li {
+        width: 15vw;
+        font-size: .7rem;
+    }
+}
+
+@media only screen and (min-width: 650px){
+    #scroll-container > li {
+        width: 15vw;
+        font-size: .8rem;
+    }
+    #DOM-title{
+        width: 35vw;
+        font-size: .9rem;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    section > article {
+        height: 80vh;
+    }
+    #scroll-container > li {
+        width: 15vw;
+        font-size: .8rem;
+    }
+    #DOM-title{
+        width: 35vw;
+        font-size: .9rem;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    section > article {
+        height: 60vh;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    section > article {
+        height: 50vh;
+    }
+}
